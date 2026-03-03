@@ -46,12 +46,12 @@ function App() {
       });
 
       localStorage.setItem("access", res.data.access);
-      alert("Login Success 🎉");
+      alert("Login Success ");
 
       setUsername("");
       setPassword("");
     } catch (err) {
-      alert("Invalid Credentials ❌");
+      alert("Invalid Credentials ");
     }
   };
 

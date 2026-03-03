@@ -6,6 +6,7 @@ pip install djangorestframework-simplejwt
 django-admin startproject backend
 cd backend
 python manage.py startapp api
+pip install django-cors-headers
 
 npm create vite@latest frontend
 
